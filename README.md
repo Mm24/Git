@@ -21,20 +21,20 @@ Here are some common commands for using Git:
 -  `git pull`: updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
 
 -  `git push`: updates the remote repository with any commits made locally to a branch.
-_Example: Contribute to an existing repository
+_Example: Contribute to an existing repository_
 
-  # download a repository on GitHub.com to our machine
-  git clone https://github.com/me/repo.git
-  # change into the `repo` directory
-  cd repo
-  # create a new branch to store any new changes
-  git branch my-branch
-  # switch to that branch (line of development)
-  git checkout my-branch
-  # make changes, for example, edit `file1.md` and `file2.md` using the text editor
-  # stage the changed files
-  git add file1.md file2.md
-  # take a snapshot of the staging area (anything that's been added)
-  git commit -m "my snapshot"
-  # push changes to github
-  git push --set-upstream origin my-branch
+    # download a repository on GitHub.com to our machine
+    git clone https://github.com/me/repo.git
+    # change into the `repo` directory
+    cd repo
+    # create a new branch to store any new changes
+    git branch my-branch
+    # switch to that branch (line of development)
+    git checkout my-branch
+    # make changes, for example, edit `file1.md` and `file2.md` using the text editor
+    # stage the changed files
+    git add file1.md file2.md
+    # take a snapshot of the staging area (anything that's been added)
+    git commit -m "my snapshot"
+    # push changes to github
+    git push --set-upstream origin my-branch
