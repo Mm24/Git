@@ -22,7 +22,7 @@ Here are some common commands for using Git:
 
 -  `git push`: updates the remote repository with any commits made locally to a branch.
 _Example: Contribute to an existing repository_
-
+''' 
     # download a repository on GitHub.com to our machine
     git clone https://github.com/me/repo.git
     # change into the `repo` directory
@@ -38,3 +38,4 @@ _Example: Contribute to an existing repository_
     git commit -m "my snapshot"
     # push changes to github
     git push --set-upstream origin my-branch
+'''
