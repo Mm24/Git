@@ -22,9 +22,9 @@ Here are some common commands for using Git:
 
 -  `git push`: updates the remote repository with any commits made locally to a branch.
 _Example: Contribute to an existing repository_
-```bash
+```git
     # download a repository on GitHub.com to our machine
-    git clone https://github.com/me/repo.git
+    git clone https://github.com/mm24/repo.git
     # change into the `repo` directory
     cd repo
     # create a new branch to store any new changes
