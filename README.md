@@ -39,3 +39,19 @@ _Example: Contribute to an existing repository_
     # push changes to github
     git push --set-upstream origin my-branch
 ```
+
+…or create a new repository on the command line
+
+    echo "# Git" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M master
+    git remote add origin https://github.com/Mm24/Git.git
+    git push -u origin master
+
+ …or push an existing repository from the command line
+
+    git remote add origin https://github.com/Mm24/Git.git
+    git branch -M master
+    git push -u origin master
